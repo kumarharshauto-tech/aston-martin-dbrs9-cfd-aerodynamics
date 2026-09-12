@@ -4,6 +4,15 @@ CFD analysis and aerodynamic optimisation of a 13% scale Aston Martin DBRS9 usin
 
 The project investigated drag, lift, downforce, airflow behaviour and aerodynamic balance across multiple vehicle configurations, supported by mesh-independence checks and comparison against wind-tunnel data.
 
+## Key Results
+
+- Final optimised aerodynamic setup achieved approximately **12.2% more downforce**
+- Achieved an improved front/rear lift balance of approximately **41/59**
+- Closed-cooling configurations reduced drag compared with open-cooling cases
+- Disk wheels produced smoother aerodynamic behaviour than spoke wheels
+- CFD predictions were compared against physical wind-tunnel measurements
+- Mesh-independence and residual-convergence checks were used to assess numerical reliability
+
 ## Project Objectives
 
 - Evaluate aerodynamic performance of the DBRS9 scale model
@@ -33,6 +42,20 @@ A mesh-independence study was performed using progressively refined meshes and p
 
 The analysis showed reduced variation between refined cases, supporting confidence in the CFD solution.
 ![Mesh Independence Study](images/mesh-independence.png)
+
+## Experimental Wind-Tunnel Setup
+
+Physical wind-tunnel testing was used as a reference for comparison with the CFD predictions.
+
+The 13% scale Aston Martin DBRS9 model was tested under controlled conditions, allowing the numerical drag and lift results to be compared against experimental measurements.
+
+![Wind Tunnel Setup](images/config-1.jpg)
+
+![Wind Tunnel Model](images/config-2.jpg)
+
+![Wind Tunnel Model](images/config-3.jpg)
+
+![Wind Tunnel Model](images/config-4.jpg)
 
 ## CFD Validation
 
@@ -101,6 +124,8 @@ The CFD post-processing included:
 ### Vortices and Flow Structure
 
 ![Vortices](images/vortices.png)
+
+## Project Files
 
 ## Tools and Methods
 
