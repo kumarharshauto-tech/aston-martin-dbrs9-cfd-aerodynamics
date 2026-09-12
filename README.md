@@ -96,7 +96,7 @@ The CFD post-processing included:
 
 ### Wake Behaviour
 
-![Wake Behaviour](images/wake-behavior.png)
+![Wake Behaviour](images/wake-behaviour.png)
 
 ### Vortices and Flow Structure
 
