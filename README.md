@@ -32,6 +32,7 @@ The project investigated drag, lift, downforce, airflow behaviour and aerodynami
 A mesh-independence study was performed using progressively refined meshes and prism-layer adjustments.
 
 The analysis showed reduced variation between refined cases, supporting confidence in the CFD solution.
+![Mesh Independence Study](images/mesh-independence.png)
 
 ## CFD Validation
 
@@ -45,6 +46,7 @@ For the open-cooling configuration with strut:
 - Wind-tunnel lift coefficient: -0.5596
 
 Differences were attributed to modelling assumptions, mesh resolution and support-strut interference.
+![CFD vs Wind Tunnel Comparison](images/cfd-vs-wind-tunnel.png)
 
 ## Configuration Study
 
@@ -55,6 +57,13 @@ The main configurations investigated included:
 3. Closed cooling, no strut, spoke wheels
 4. Closed cooling, no strut, disk wheels
 5. Optimised rear-wing configuration
+### Drag Comparison
+
+![Drag Comparison](images/drag-comparison.png)
+
+### Lift Comparison
+
+![Lift Comparison](images/lift-comparison.png)
 
 The closed-cooling and disk-wheel configurations showed improved drag characteristics compared with open-cooling configurations.
 
@@ -68,6 +77,7 @@ The final optimised setup achieved:
 - Front/rear lift balance of approximately 41/59
 
 This represented the best compromise between increased downforce and aerodynamic balance.
+![Optimised Rear Wing Configuration](images/optimised-wing.png)
 
 ## Flow Visualisation
 
@@ -80,6 +90,17 @@ The CFD post-processing included:
 - Streamlines
 - Wake behaviour
 - Wing-tip and wheel vortices
+- ### Pressure Distribution
+
+![Pressure Contour](images/pressure-contour.png)
+
+### Wake Behaviour
+
+![Wake Behaviour](images/wake-behavior.png)
+
+### Vortices and Flow Structure
+
+![Vortices](images/vortices.png)
 
 ## Tools and Methods
 
